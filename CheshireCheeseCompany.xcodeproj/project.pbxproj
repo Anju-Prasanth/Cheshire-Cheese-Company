@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F148F7CD2230E7B6009322FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148F7CC2230E7B6009322FB /* AppDelegate.swift */; };
+		F148F7CF2230E7B6009322FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148F7CE2230E7B6009322FB /* ViewController.swift */; };
+		F148F7D22230E7B6009322FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F148F7D02230E7B6009322FB /* Main.storyboard */; };
+		F148F7D52230E7B6009322FB /* CheshireCheeseCompany.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F148F7D32230E7B6009322FB /* CheshireCheeseCompany.xcdatamodeld */; };
+		F148F7D72230E7B6009322FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F148F7D62230E7B6009322FB /* Assets.xcassets */; };
+		F148F7DA2230E7B6009322FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F148F7D82230E7B6009322FB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F148F7C92230E7B6009322FB /* CheshireCheeseCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheshireCheeseCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F148F7CC2230E7B6009322FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F148F7CE2230E7B6009322FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F148F7D12230E7B6009322FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F148F7D42230E7B6009322FB /* CheshireCheeseCompany.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheshireCheeseCompany.xcdatamodel; sourceTree = "<group>"; };
+		F148F7D62230E7B6009322FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F148F7D92230E7B6009322FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F148F7DB2230E7B6009322FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F148F7C62230E7B6009322FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F148F7C02230E7B5009322FB = {
+			isa = PBXGroup;
+			children = (
+				F148F7CB2230E7B6009322FB /* CheshireCheeseCompany */,
+				F148F7CA2230E7B6009322FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F148F7CA2230E7B6009322FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F148F7C92230E7B6009322FB /* CheshireCheeseCompany.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F148F7CB2230E7B6009322FB /* CheshireCheeseCompany */ = {
+			isa = PBXGroup;
+			children = (
+				F148F7CC2230E7B6009322FB /* AppDelegate.swift */,
+				F148F7CE2230E7B6009322FB /* ViewController.swift */,
+				F148F7D02230E7B6009322FB /* Main.storyboard */,
+				F148F7D62230E7B6009322FB /* Assets.xcassets */,
+				F148F7D82230E7B6009322FB /* LaunchScreen.storyboard */,
+				F148F7DB2230E7B6009322FB /* Info.plist */,
+				F148F7D32230E7B6009322FB /* CheshireCheeseCompany.xcdatamodeld */,
+			);
+			path = CheshireCheeseCompany;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F148F7C82230E7B6009322FB /* CheshireCheeseCompany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F148F7DE2230E7B6009322FB /* Build configuration list for PBXNativeTarget "CheshireCheeseCompany" */;
+			buildPhases = (
+				F148F7C52230E7B6009322FB /* Sources */,
+				F148F7C62230E7B6009322FB /* Frameworks */,
+				F148F7C72230E7B6009322FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheshireCheeseCompany;
+			productName = CheshireCheeseCompany;
+			productReference = F148F7C92230E7B6009322FB /* CheshireCheeseCompany.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F148F7C12230E7B5009322FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = websight;
+				TargetAttributes = {
+					F148F7C82230E7B6009322FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F148F7C42230E7B5009322FB /* Build configuration list for PBXProject "CheshireCheeseCompany" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F148F7C02230E7B5009322FB;
+			productRefGroup = F148F7CA2230E7B6009322FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F148F7C82230E7B6009322FB /* CheshireCheeseCompany */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F148F7C72230E7B6009322FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148F7DA2230E7B6009322FB /* LaunchScreen.storyboard in Resources */,
+				F148F7D72230E7B6009322FB /* Assets.xcassets in Resources */,
+				F148F7D22230E7B6009322FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F148F7C52230E7B6009322FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148F7CF2230E7B6009322FB /* ViewController.swift in Sources */,
+				F148F7CD2230E7B6009322FB /* AppDelegate.swift in Sources */,
+				F148F7D52230E7B6009322FB /* CheshireCheeseCompany.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F148F7D02230E7B6009322FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148F7D12230E7B6009322FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F148F7D82230E7B6009322FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148F7D92230E7B6009322FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F148F7DC2230E7B6009322FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F148F7DD2230E7B6009322FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F148F7DF2230E7B6009322FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKJY8F7EN7;
+				INFOPLIST_FILE = CheshireCheeseCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.websight.CheshireCheeseCompany;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F148F7E02230E7B6009322FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKJY8F7EN7;
+				INFOPLIST_FILE = CheshireCheeseCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.websight.CheshireCheeseCompany;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F148F7C42230E7B5009322FB /* Build configuration list for PBXProject "CheshireCheeseCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148F7DC2230E7B6009322FB /* Debug */,
+				F148F7DD2230E7B6009322FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F148F7DE2230E7B6009322FB /* Build configuration list for PBXNativeTarget "CheshireCheeseCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148F7DF2230E7B6009322FB /* Debug */,
+				F148F7E02230E7B6009322FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F148F7D32230E7B6009322FB /* CheshireCheeseCompany.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F148F7D42230E7B6009322FB /* CheshireCheeseCompany.xcdatamodel */,
+			);
+			currentVersion = F148F7D42230E7B6009322FB /* CheshireCheeseCompany.xcdatamodel */;
+			path = CheshireCheeseCompany.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F148F7C12230E7B5009322FB /* Project object */;
+}
