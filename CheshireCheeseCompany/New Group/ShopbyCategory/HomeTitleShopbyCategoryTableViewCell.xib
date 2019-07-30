@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeTitleShopbyCategoryTableViewCell" rowHeight="49" id="KGk-i7-Jjw" customClass="HomeTitleShopbyCategoryTableViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop by Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71s-RQ-EiC">
+                        <rect key="frame" x="102" y="12" width="143" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8al-en-6lb"/>
+                            <constraint firstAttribute="width" constant="143" id="rFb-1a-pWE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vym-U3-MXq">
+                        <rect key="frame" x="249" y="23" width="94" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="KGh-wi-VpT"/>
+                            <constraint firstAttribute="width" constant="94" id="qWj-Jc-WZv"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SxB-ZQ-sU6">
+                        <rect key="frame" x="10" y="23" width="78" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="78" id="MFc-rB-xgw"/>
+                            <constraint firstAttribute="height" constant="1" id="r2P-Cm-lVM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="71s-RQ-EiC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="102" id="26C-B2-nVq"/>
+                    <constraint firstItem="SxB-ZQ-sU6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="23" id="Ii8-Lg-YRs"/>
+                    <constraint firstItem="vym-U3-MXq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="23" id="Pec-3J-wGo"/>
+                    <constraint firstItem="71s-RQ-EiC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Q7g-Tb-cNR"/>
+                    <constraint firstItem="SxB-ZQ-sU6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="YpV-Za-TCw"/>
+                    <constraint firstAttribute="trailing" secondItem="vym-U3-MXq" secondAttribute="trailing" constant="10" id="c54-So-nxZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblshopbycategory" destination="71s-RQ-EiC" id="Gre-qs-zUx"/>
+            </connections>
+            <point key="canvasLocation" x="-20.5" y="59"/>
+        </tableViewCell>
+    </objects>
+</document>
