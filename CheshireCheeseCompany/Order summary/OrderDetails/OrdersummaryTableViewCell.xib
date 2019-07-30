@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrdersummaryTableViewCell" rowHeight="152" id="qR4-Ti-VnO" customClass="OrdersummaryTableViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qR4-Ti-VnO" id="MqY-Pe-3pk">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="151.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kvA-wu-ZJc">
+                        <rect key="frame" x="9" y="5" width="306" height="136"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qty:1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vx-4p-ntG">
+                                <rect key="frame" x="147" y="62" width="110" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Wof-Xy-IdX"/>
+                                    <constraint firstAttribute="width" constant="110" id="X96-1T-TmE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6-x-pick-n-mix-cheese-truckles-gift-box-or-hamper" translatesAutoresizingMaskIntoConstraints="NO" id="4Tz-EG-Q2a">
+                                <rect key="frame" x="15" y="12" width="113" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="113" id="DTb-l4-ThQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chilli and garlic no stone olives" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soB-gA-3j4">
+                                <rect key="frame" x="146" y="12" width="140" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Tk1-Zc-ZwM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="soB-gA-3j4" firstAttribute="leading" secondItem="4Tz-EG-Q2a" secondAttribute="trailing" constant="18" id="4T9-gQ-2u5"/>
+                            <constraint firstAttribute="bottom" secondItem="4Tz-EG-Q2a" secondAttribute="bottom" constant="15" id="dut-Qf-rTb"/>
+                            <constraint firstItem="4Tz-EG-Q2a" firstAttribute="top" secondItem="kvA-wu-ZJc" secondAttribute="top" constant="12" id="eT0-pO-dMQ"/>
+                            <constraint firstItem="8Vx-4p-ntG" firstAttribute="leading" secondItem="4Tz-EG-Q2a" secondAttribute="trailing" constant="19" id="gSH-sp-s7U"/>
+                            <constraint firstItem="4Tz-EG-Q2a" firstAttribute="leading" secondItem="kvA-wu-ZJc" secondAttribute="leading" constant="15" id="hF2-sc-sJU"/>
+                            <constraint firstItem="8Vx-4p-ntG" firstAttribute="top" secondItem="soB-gA-3j4" secondAttribute="bottom" constant="10" id="k4K-kj-J7K"/>
+                            <constraint firstItem="soB-gA-3j4" firstAttribute="top" secondItem="kvA-wu-ZJc" secondAttribute="top" constant="12" id="oa3-oY-yeR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.9570503830909729" green="0.94449126720428467" blue="0.91742712259292603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="kvA-wu-ZJc" secondAttribute="bottom" constant="10.5" id="Ggl-Rl-nLs"/>
+                    <constraint firstAttribute="trailing" secondItem="kvA-wu-ZJc" secondAttribute="trailing" constant="10" id="JPO-Xf-ZOW"/>
+                    <constraint firstItem="kvA-wu-ZJc" firstAttribute="top" secondItem="MqY-Pe-3pk" secondAttribute="top" constant="5" id="Kt5-A6-Nhk"/>
+                    <constraint firstItem="kvA-wu-ZJc" firstAttribute="leading" secondItem="MqY-Pe-3pk" secondAttribute="leading" constant="9" id="h0Y-e3-Ydc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Outerview" destination="kvA-wu-ZJc" id="dcU-aF-z9f"/>
+                <outlet property="imageviewproduct" destination="4Tz-EG-Q2a" id="vbV-mr-tH3"/>
+                <outlet property="lblname" destination="soB-gA-3j4" id="z8r-Ts-MSt"/>
+                <outlet property="lblqty" destination="8Vx-4p-ntG" id="swE-n2-DPH"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="247.37631184407797"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="6-x-pick-n-mix-cheese-truckles-gift-box-or-hamper" width="400" height="300"/>
+    </resources>
+</document>

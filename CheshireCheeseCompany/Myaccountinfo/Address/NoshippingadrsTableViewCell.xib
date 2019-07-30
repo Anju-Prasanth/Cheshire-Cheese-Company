@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoshippingadrsTableViewCell" rowHeight="125" id="Atj-Hg-eD1" customClass="NoshippingadrsTableViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Atj-Hg-eD1" id="CFO-7M-cae">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="124.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qy4-XS-fDw">
+                        <rect key="frame" x="9" y="8" width="356" height="108"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEFAULT SHIPPING ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ae9-sh-q13">
+                                <rect key="frame" x="15" y="15" width="266" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jDO-hQ-Ku9"/>
+                                    <constraint firstAttribute="width" constant="266" id="pOT-ns-BIO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNl-ja-AMy">
+                                <rect key="frame" x="306" y="34" width="42" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Is3-O5-JzO"/>
+                                    <constraint firstAttribute="width" constant="42" id="w42-9v-dM5"/>
+                                </constraints>
+                                <state key="normal" image="arrow-1"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have set no default shipping address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqf-iq-ldF">
+                                <rect key="frame" x="15" y="46" width="283" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8r1-yA-5Fq"/>
+                                    <constraint firstAttribute="width" constant="283" id="t6h-mz-X2G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oya-pG-ggV">
+                                <rect key="frame" x="14" y="72" width="95" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="Ur3-3n-W22"/>
+                                    <constraint firstAttribute="height" constant="26" id="sbK-dj-7tZ"/>
+                                </constraints>
+                                <state key="normal" title="Add Address">
+                                    <color key="titleColor" red="0.29037541150000001" green="0.52889704699999995" blue="0.76934987310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ae9-sh-q13" firstAttribute="top" secondItem="qy4-XS-fDw" secondAttribute="top" constant="15" id="FFs-z1-lUP"/>
+                            <constraint firstAttribute="width" constant="356" id="M1H-gg-MWA"/>
+                            <constraint firstItem="oya-pG-ggV" firstAttribute="leading" secondItem="qy4-XS-fDw" secondAttribute="leading" constant="14" id="Mr1-GR-Ugh"/>
+                            <constraint firstAttribute="height" constant="108" id="Nn8-O9-tFU"/>
+                            <constraint firstItem="Rqf-iq-ldF" firstAttribute="top" secondItem="ae9-sh-q13" secondAttribute="bottom" constant="10" id="O66-Ze-3i6"/>
+                            <constraint firstItem="Rqf-iq-ldF" firstAttribute="leading" secondItem="qy4-XS-fDw" secondAttribute="leading" constant="15" id="XJR-4j-K44"/>
+                            <constraint firstAttribute="trailing" secondItem="NNl-ja-AMy" secondAttribute="trailing" constant="8" id="aCE-Mf-FIc"/>
+                            <constraint firstItem="ae9-sh-q13" firstAttribute="leading" secondItem="qy4-XS-fDw" secondAttribute="leading" constant="15" id="aFj-hd-dF1"/>
+                            <constraint firstItem="NNl-ja-AMy" firstAttribute="top" secondItem="qy4-XS-fDw" secondAttribute="top" constant="34" id="bW7-D4-eVs"/>
+                            <constraint firstItem="oya-pG-ggV" firstAttribute="top" secondItem="Rqf-iq-ldF" secondAttribute="bottom" constant="5" id="cBR-xc-jCs"/>
+                            <constraint firstAttribute="bottom" secondItem="oya-pG-ggV" secondAttribute="bottom" constant="10" id="feb-g7-QKb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qy4-XS-fDw" secondAttribute="bottom" constant="8.5" id="EY4-c9-TDd"/>
+                    <constraint firstItem="qy4-XS-fDw" firstAttribute="leading" secondItem="CFO-7M-cae" secondAttribute="leading" constant="9" id="bPv-dd-NcP"/>
+                    <constraint firstAttribute="trailing" secondItem="qy4-XS-fDw" secondAttribute="trailing" constant="8" id="izH-lm-OnA"/>
+                    <constraint firstItem="qy4-XS-fDw" firstAttribute="top" secondItem="CFO-7M-cae" secondAttribute="top" constant="8" id="mgC-Kp-SZS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.95665901900000005" green="0.95999497180000004" blue="0.93707478050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="Zr1-0o-et4"/>
+            <connections>
+                <outlet property="Outerview" destination="qy4-XS-fDw" id="aYE-4s-Vmv"/>
+                <outlet property="btnaddars" destination="oya-pG-ggV" id="DbE-mP-RSV"/>
+                <outlet property="lblnblngadrs" destination="ae9-sh-q13" id="UfW-Pf-n9W"/>
+                <outlet property="lblnoadrs" destination="Rqf-iq-ldF" id="Ij7-6g-1HO"/>
+            </connections>
+            <point key="canvasLocation" x="534" y="-272"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow-1" width="5.1999998092651367" height="8.8000001907348633"/>
+    </resources>
+</document>

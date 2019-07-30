@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="ProductimageCollectionViewCell" id="gTV-IL-0wX" customClass="ProductimageCollectionViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="277" height="262"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="277" height="262"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caramelised-onion-rioja-cheddar-200g-wax-1" translatesAutoresizingMaskIntoConstraints="NO" id="V6O-nz-eao">
+                        <rect key="frame" x="0.0" y="0.0" width="277" height="262"/>
+                        <color key="backgroundColor" red="0.47447139020000001" green="0.4745313525" blue="0.47445100550000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="V6O-nz-eao" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ItX-GX-YZC"/>
+                <constraint firstItem="V6O-nz-eao" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TQ5-3Y-oYU"/>
+                <constraint firstAttribute="bottom" secondItem="V6O-nz-eao" secondAttribute="bottom" id="ZJ4-g3-bEk"/>
+                <constraint firstAttribute="trailing" secondItem="V6O-nz-eao" secondAttribute="trailing" id="edo-JT-kP6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="277" height="262"/>
+            <point key="canvasLocation" x="93.599999999999994" y="144.82758620689657"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="caramelised-onion-rioja-cheddar-200g-wax-1" width="400" height="300"/>
+    </resources>
+</document>

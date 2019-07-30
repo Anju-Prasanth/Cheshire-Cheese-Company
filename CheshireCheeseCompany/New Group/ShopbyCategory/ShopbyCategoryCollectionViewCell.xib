@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShopbyCategoryCollectionViewCell" id="gTV-IL-0wX" customClass="ShopbyCategoryCollectionViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="184"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="184"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vm1-oY-CtN">
+                        <rect key="frame" x="0.0" y="0.0" width="159" height="184"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caramelised-onion-rioja-cheddar-200g-wax" translatesAutoresizingMaskIntoConstraints="NO" id="wPM-sq-Ehr">
+                                <rect key="frame" x="10" y="10" width="138" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="Vkw-H2-ITQ"/>
+                                    <constraint firstAttribute="width" constant="138" id="XBY-pM-YTl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garlic &amp; Cracked Black Pepper Cheshire Cheese" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FR4-sr-I8f">
+                                <rect key="frame" x="8" y="116" width="143" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wPM-sq-Ehr" secondAttribute="trailing" constant="11" id="2xK-qE-P1O"/>
+                            <constraint firstAttribute="bottom" secondItem="FR4-sr-I8f" secondAttribute="bottom" constant="8" id="A1Y-9h-SqK"/>
+                            <constraint firstItem="FR4-sr-I8f" firstAttribute="leading" secondItem="vm1-oY-CtN" secondAttribute="leading" constant="8" id="B4p-9a-dEj"/>
+                            <constraint firstAttribute="trailing" secondItem="FR4-sr-I8f" secondAttribute="trailing" constant="8" id="Yge-Ts-y64"/>
+                            <constraint firstItem="wPM-sq-Ehr" firstAttribute="top" secondItem="vm1-oY-CtN" secondAttribute="top" constant="10" id="fiE-cm-zbP"/>
+                            <constraint firstItem="FR4-sr-I8f" firstAttribute="top" secondItem="wPM-sq-Ehr" secondAttribute="bottom" constant="4" id="g0k-OB-psV"/>
+                            <constraint firstItem="wPM-sq-Ehr" firstAttribute="leading" secondItem="vm1-oY-CtN" secondAttribute="leading" constant="10" id="xKb-OY-tBG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vm1-oY-CtN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KLN-9u-QdR"/>
+                <constraint firstAttribute="bottom" secondItem="vm1-oY-CtN" secondAttribute="bottom" id="Nb2-AT-fpX"/>
+                <constraint firstItem="vm1-oY-CtN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cUc-t4-v3H"/>
+                <constraint firstAttribute="trailing" secondItem="vm1-oY-CtN" secondAttribute="trailing" id="fvc-41-mbm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="156" height="158"/>
+            <connections>
+                <outlet property="imageviewshopbycategory" destination="wPM-sq-Ehr" id="vGm-fY-yNL"/>
+                <outlet property="lblcategoryname" destination="FR4-sr-I8f" id="0Hr-Pj-V9D"/>
+                <outlet property="outerview" destination="vm1-oY-CtN" id="HFO-mO-VNa"/>
+            </connections>
+            <point key="canvasLocation" x="216.80000000000001" y="-11.694152923538232"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="caramelised-onion-rioja-cheddar-200g-wax" width="700" height="543"/>
+    </resources>
+</document>

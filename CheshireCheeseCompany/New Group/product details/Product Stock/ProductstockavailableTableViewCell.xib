@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProductstockavailableTableViewCell" rowHeight="241" id="L36-DO-cwZ" customClass="ProductstockavailableTableViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="241"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L36-DO-cwZ" id="yxN-2e-Fv4">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="240.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KqQ-jG-gmk">
+                        <rect key="frame" x="9" y="0.0" width="301" height="241"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Ev-Zhz">
+                                <rect key="frame" x="21" y="-2" width="266" height="212"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88K-Xo-as8">
+                                <rect key="frame" x="30" y="14" width="243" height="187"/>
+                                <string key="text">We send out parcels every day Monday to Friday the cut off time is 2pm each of these days. These are delivered the next day Tuesday to Saturday. We do not send out Saturday and Sunday so we do not deliver Sunday and Mondays.hfuydgfudyfgdsuyfghdfuyghfduyighfigufdhgiufdhgiufghjui</string>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a92-v4-ODn">
+                                <rect key="frame" x="174" y="183" width="98" height="18"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="A02-wr-EG7"/>
+                                    <constraint firstAttribute="width" constant="98" id="CrQ-eo-Quh"/>
+                                </constraints>
+                                <state key="normal" title="....Read More">
+                                    <color key="titleColor" red="0.29037541150000001" green="0.52889704699999995" blue="0.76934987310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="a92-v4-ODn" secondAttribute="trailing" constant="29" id="9Yb-QI-IpZ"/>
+                            <constraint firstItem="88K-Xo-as8" firstAttribute="top" secondItem="KqQ-jG-gmk" secondAttribute="top" constant="14" id="Mb7-Fn-pMM"/>
+                            <constraint firstItem="kWf-Ev-Zhz" firstAttribute="top" secondItem="KqQ-jG-gmk" secondAttribute="top" constant="-2" id="NKU-Tc-ee0"/>
+                            <constraint firstAttribute="bottom" secondItem="kWf-Ev-Zhz" secondAttribute="bottom" constant="31" id="Rx1-oW-vgr"/>
+                            <constraint firstItem="88K-Xo-as8" firstAttribute="leading" secondItem="KqQ-jG-gmk" secondAttribute="leading" constant="30" id="cM0-J1-f3o"/>
+                            <constraint firstAttribute="trailing" secondItem="kWf-Ev-Zhz" secondAttribute="trailing" constant="14.699999999999999" id="f6t-3h-ZRk"/>
+                            <constraint firstAttribute="bottom" secondItem="88K-Xo-as8" secondAttribute="bottom" constant="40" id="fIr-t3-Lku"/>
+                            <constraint firstItem="kWf-Ev-Zhz" firstAttribute="leading" secondItem="KqQ-jG-gmk" secondAttribute="leading" constant="21" id="hQy-EG-EyV"/>
+                            <constraint firstAttribute="bottom" secondItem="a92-v4-ODn" secondAttribute="bottom" constant="40" id="rBY-iA-HGw"/>
+                            <constraint firstAttribute="trailing" secondItem="88K-Xo-as8" secondAttribute="trailing" constant="28" id="uTf-gD-3v7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KqQ-jG-gmk" firstAttribute="top" secondItem="yxN-2e-Fv4" secondAttribute="top" id="5OR-Bo-DAf"/>
+                    <constraint firstAttribute="bottom" secondItem="KqQ-jG-gmk" secondAttribute="bottom" constant="-0.5" id="8sb-Bt-Mjz"/>
+                    <constraint firstAttribute="trailing" secondItem="KqQ-jG-gmk" secondAttribute="trailing" constant="10" id="M3i-Oh-XpP"/>
+                    <constraint firstItem="KqQ-jG-gmk" firstAttribute="leading" secondItem="yxN-2e-Fv4" secondAttribute="leading" constant="9" id="tH5-cb-hJB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.94719117880000003" green="0.92402106520000005" blue="0.84905785320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="Outerview" destination="KqQ-jG-gmk" id="Fm8-4u-oMZ"/>
+                <outlet property="btndeliveryreadmore" destination="a92-v4-ODn" id="9w1-H8-pzp"/>
+                <outlet property="lbldscrptn" destination="88K-Xo-as8" id="6Py-oO-10M"/>
+                <outlet property="viewouterproductstock" destination="kWf-Ev-Zhz" id="5sj-Dn-iDr"/>
+            </connections>
+            <point key="canvasLocation" x="49.600000000000001" y="-62.518740629685162"/>
+        </tableViewCell>
+    </objects>
+</document>

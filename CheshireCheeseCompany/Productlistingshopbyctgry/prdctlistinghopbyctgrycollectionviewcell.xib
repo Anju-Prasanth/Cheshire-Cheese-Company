@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" reuseIdentifier="prdctlistinghopbyctgrycollectionviewcell" id="ZwG-AS-sum" customClass="prdctlistinghopbyctgrycollectionviewcell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="247"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="247"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pml-FO-Ac1">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="247"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6-x-pick-n-mix-cheese-truckles-gift-box-or-hamper" translatesAutoresizingMaskIntoConstraints="NO" id="ULi-6q-C5U">
+                                <rect key="frame" x="12" y="10" width="126" height="106"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Individual chuckles dfrtgfhfhfjfffjiofjjggfhfvfjhfvhvcvvjvvvjo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpJ-eX-TYW">
+                                <rect key="frame" x="15" y="126" width="123" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="10Y-3u-CRw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3.75" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVs-BS-zsd">
+                                <rect key="frame" x="15" y="221" width="122" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="Sxt-iY-3Ws"/>
+                                    <constraint firstAttribute="height" constant="16" id="zAD-w7-jhQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KpJ-eX-TYW" firstAttribute="leading" secondItem="Pml-FO-Ac1" secondAttribute="leading" constant="15" id="6sY-ne-qbK"/>
+                            <constraint firstItem="ULi-6q-C5U" firstAttribute="leading" secondItem="Pml-FO-Ac1" secondAttribute="leading" constant="12" id="A14-KB-KNp"/>
+                            <constraint firstItem="PVs-BS-zsd" firstAttribute="leading" secondItem="Pml-FO-Ac1" secondAttribute="leading" constant="15" id="ATZ-40-ngh"/>
+                            <constraint firstAttribute="trailing" secondItem="KpJ-eX-TYW" secondAttribute="trailing" constant="12" id="FgS-ni-dYf"/>
+                            <constraint firstAttribute="trailing" secondItem="ULi-6q-C5U" secondAttribute="trailing" constant="12" id="LUG-LY-Tul"/>
+                            <constraint firstItem="ULi-6q-C5U" firstAttribute="top" secondItem="Pml-FO-Ac1" secondAttribute="top" constant="10" id="VDk-Bg-lMH"/>
+                            <constraint firstAttribute="trailing" secondItem="PVs-BS-zsd" secondAttribute="trailing" constant="13" id="Z1Y-Vf-8kM"/>
+                            <constraint firstItem="KpJ-eX-TYW" firstAttribute="top" secondItem="ULi-6q-C5U" secondAttribute="bottom" constant="10" id="j8g-Oh-muQ"/>
+                            <constraint firstAttribute="bottom" secondItem="PVs-BS-zsd" secondAttribute="bottom" constant="10" id="mhE-TM-MXW"/>
+                            <constraint firstItem="PVs-BS-zsd" firstAttribute="top" secondItem="KpJ-eX-TYW" secondAttribute="bottom" constant="5" id="nJu-53-4f1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+            <constraints>
+                <constraint firstItem="Pml-FO-Ac1" firstAttribute="top" secondItem="ZwG-AS-sum" secondAttribute="top" id="5Fu-EJ-8NE"/>
+                <constraint firstAttribute="bottom" secondItem="Pml-FO-Ac1" secondAttribute="bottom" id="Dsw-DL-0QW"/>
+                <constraint firstAttribute="trailing" secondItem="Pml-FO-Ac1" secondAttribute="trailing" id="ENB-d1-0J3"/>
+                <constraint firstItem="Pml-FO-Ac1" firstAttribute="leading" secondItem="ZwG-AS-sum" secondAttribute="leading" id="xN1-Mc-67h"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Bvy-dq-ytk"/>
+            <size key="customSize" width="147" height="221"/>
+            <connections>
+                <outlet property="Outerview" destination="Pml-FO-Ac1" id="T15-4z-Tsu"/>
+                <outlet property="imageviewproduct" destination="ULi-6q-C5U" id="z61-8C-Mfq"/>
+                <outlet property="lblproductdescriptn" destination="KpJ-eX-TYW" id="zmQ-XB-yyQ"/>
+                <outlet property="lblproductprice" destination="PVs-BS-zsd" id="4yo-Ya-se7"/>
+            </connections>
+            <point key="canvasLocation" x="222.40000000000001" y="317.99100449775113"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="6-x-pick-n-mix-cheese-truckles-gift-box-or-hamper" width="400" height="300"/>
+    </resources>
+</document>

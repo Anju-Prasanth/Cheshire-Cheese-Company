@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" reuseIdentifier="searchproductlistingCollectionViewCell" id="9nl-ZP-YOm" customClass="searchproductlistingCollectionViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="240"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mG8-xS-kVR">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="233"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6-x-pick-n-mix-cheese-truckles-gift-box-or-hamper" translatesAutoresizingMaskIntoConstraints="NO" id="duF-zY-luC">
+                                <rect key="frame" x="0.0" y="8" width="150" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Zql-1V-TVP"/>
+                                    <constraint firstAttribute="height" constant="118" id="hxU-1v-Fbn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="£3.75" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvb-qp-uW8">
+                                <rect key="frame" x="14" y="201" width="122" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="En2-Iw-dUV"/>
+                                    <constraint firstAttribute="height" constant="14" id="SkQ-y2-bq6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqf-b9-lty">
+                                <rect key="frame" x="13" y="135" width="126" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="S8E-c5-KZ2"/>
+                                    <constraint firstAttribute="height" constant="60" id="cWg-iM-uDe"/>
+                                </constraints>
+                                <string key="text">Caramelised Onion &amp; Rioja Cheddar of 200gm
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="duF-zY-luC" firstAttribute="top" secondItem="mG8-xS-kVR" secondAttribute="top" constant="8" id="4KF-Yh-iIB"/>
+                            <constraint firstItem="duF-zY-luC" firstAttribute="leading" secondItem="mG8-xS-kVR" secondAttribute="leading" id="7cj-ta-lkv"/>
+                            <constraint firstItem="Vqf-b9-lty" firstAttribute="leading" secondItem="mG8-xS-kVR" secondAttribute="leading" constant="13" id="EJx-L1-xsm"/>
+                            <constraint firstItem="wvb-qp-uW8" firstAttribute="top" secondItem="Vqf-b9-lty" secondAttribute="bottom" constant="6" id="fNW-pB-dsp"/>
+                            <constraint firstItem="Vqf-b9-lty" firstAttribute="top" secondItem="duF-zY-luC" secondAttribute="bottom" constant="9" id="flQ-C5-ugc"/>
+                            <constraint firstAttribute="trailing" secondItem="duF-zY-luC" secondAttribute="trailing" id="p5k-bZ-srZ"/>
+                            <constraint firstItem="wvb-qp-uW8" firstAttribute="leading" secondItem="mG8-xS-kVR" secondAttribute="leading" constant="14" id="qEy-dF-h4a"/>
+                            <constraint firstAttribute="bottom" secondItem="wvb-qp-uW8" secondAttribute="bottom" constant="18" id="tzv-Lh-DQq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+            <constraints>
+                <constraint firstItem="mG8-xS-kVR" firstAttribute="top" secondItem="9nl-ZP-YOm" secondAttribute="top" id="Fkn-ta-W4W"/>
+                <constraint firstItem="mG8-xS-kVR" firstAttribute="leading" secondItem="9nl-ZP-YOm" secondAttribute="leading" id="GbQ-xb-Hs8"/>
+                <constraint firstAttribute="bottom" secondItem="mG8-xS-kVR" secondAttribute="bottom" constant="7" id="NTO-wu-i45"/>
+                <constraint firstAttribute="trailing" secondItem="mG8-xS-kVR" secondAttribute="trailing" id="cgl-x3-4Ya"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="lil-pF-45G"/>
+            <size key="customSize" width="147" height="214"/>
+            <connections>
+                <outlet property="Outerview" destination="mG8-xS-kVR" id="kYZ-2V-njX"/>
+                <outlet property="imageviewproduct" destination="duF-zY-luC" id="Lao-h0-OFp"/>
+                <outlet property="lblproductdescriptn" destination="Vqf-b9-lty" id="0Ad-Wt-9Ao"/>
+                <outlet property="lblproductprice" destination="wvb-qp-uW8" id="hal-xd-QKW"/>
+            </connections>
+            <point key="canvasLocation" x="222.40000000000001" y="312.14392803598201"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="6-x-pick-n-mix-cheese-truckles-gift-box-or-hamper" width="400" height="300"/>
+    </resources>
+</document>

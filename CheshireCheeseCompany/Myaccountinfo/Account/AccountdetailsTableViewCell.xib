@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AccountdetailsTableViewCell" rowHeight="156" id="KGk-i7-Jjw" customClass="AccountdetailsTableViewCell" customModule="CheshireCheeseCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="155.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1p5-ef-e2k">
+                        <rect key="frame" x="9" y="11" width="355" height="134"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACCOUNT INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d70-Lj-XDq">
+                                <rect key="frame" x="17" y="14" width="266" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="eSk-lX-uho"/>
+                                    <constraint firstAttribute="width" constant="266" id="ytA-xA-lkW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHU-qP-Gdh">
+                                <rect key="frame" x="17" y="40" width="345" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="345" id="Pd5-7B-0Di"/>
+                                    <constraint firstAttribute="height" constant="21" id="i85-J1-t2s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Johndoe@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTD-xf-B1a">
+                                <rect key="frame" x="17" y="63" width="345" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7LG-mU-9wa"/>
+                                    <constraint firstAttribute="width" constant="345" id="Xth-ux-Dxi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJO-qv-n0B">
+                                <rect key="frame" x="17" y="95" width="155" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="6Hl-72-8IS"/>
+                                    <constraint firstAttribute="height" constant="27" id="6dj-Kq-ee6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Edit/Change Password">
+                                    <color key="titleColor" red="0.34901960784313724" green="0.64155101776123047" blue="0.80455547571182251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3p-NP-cKK">
+                                <rect key="frame" x="17" y="122" width="155" height="1"/>
+                                <color key="backgroundColor" red="0.67493999004364014" green="0.8046308159828186" blue="0.88659453392028809" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="HC4-Nu-0ma"/>
+                                    <constraint firstAttribute="width" constant="155" id="mzz-8C-jkt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjh-DD-Fwt">
+                                <rect key="frame" x="320" y="56" width="17" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="17" id="1Zm-iJ-MhN"/>
+                                    <constraint firstAttribute="height" constant="22" id="spl-tt-RfO"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="arrow-1"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tjh-DD-Fwt" firstAttribute="top" secondItem="1p5-ef-e2k" secondAttribute="top" constant="56" id="9Jr-WQ-Bfc"/>
+                            <constraint firstItem="UJO-qv-n0B" firstAttribute="leading" secondItem="1p5-ef-e2k" secondAttribute="leading" constant="17" id="DLs-yV-lEc"/>
+                            <constraint firstItem="UJO-qv-n0B" firstAttribute="top" secondItem="pTD-xf-B1a" secondAttribute="bottom" constant="11" id="T4t-pZ-4iB"/>
+                            <constraint firstItem="pTD-xf-B1a" firstAttribute="leading" secondItem="1p5-ef-e2k" secondAttribute="leading" constant="17" id="Tmd-oH-qag"/>
+                            <constraint firstItem="hHU-qP-Gdh" firstAttribute="leading" secondItem="1p5-ef-e2k" secondAttribute="leading" constant="17" id="VHF-fU-pOt"/>
+                            <constraint firstItem="d70-Lj-XDq" firstAttribute="leading" secondItem="1p5-ef-e2k" secondAttribute="leading" constant="17" id="Vdp-Li-dsR"/>
+                            <constraint firstItem="C3p-NP-cKK" firstAttribute="leading" secondItem="1p5-ef-e2k" secondAttribute="leading" constant="17" id="ciL-eT-0c7"/>
+                            <constraint firstAttribute="trailing" secondItem="pTD-xf-B1a" secondAttribute="trailing" constant="-7" id="d7i-hu-D71"/>
+                            <constraint firstAttribute="trailing" secondItem="hHU-qP-Gdh" secondAttribute="trailing" constant="-7" id="kLU-eL-QaA"/>
+                            <constraint firstItem="d70-Lj-XDq" firstAttribute="top" secondItem="1p5-ef-e2k" secondAttribute="top" constant="14" id="pnH-eS-kry"/>
+                            <constraint firstItem="hHU-qP-Gdh" firstAttribute="top" secondItem="d70-Lj-XDq" secondAttribute="bottom" constant="5" id="tBk-hP-oLY"/>
+                            <constraint firstItem="pTD-xf-B1a" firstAttribute="top" secondItem="hHU-qP-Gdh" secondAttribute="bottom" constant="2" id="y2H-QV-Vao"/>
+                            <constraint firstItem="C3p-NP-cKK" firstAttribute="top" secondItem="UJO-qv-n0B" secondAttribute="bottom" id="yjB-WS-gbz"/>
+                            <constraint firstAttribute="trailing" secondItem="Tjh-DD-Fwt" secondAttribute="trailing" constant="18" id="z1k-Qd-mYs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1p5-ef-e2k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="Dnv-mI-YJB"/>
+                    <constraint firstAttribute="bottom" secondItem="1p5-ef-e2k" secondAttribute="bottom" constant="10.5" id="Ooh-AV-BzY"/>
+                    <constraint firstAttribute="trailing" secondItem="1p5-ef-e2k" secondAttribute="trailing" constant="9" id="mPb-uE-jNc"/>
+                    <constraint firstItem="1p5-ef-e2k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="n7T-hA-3eZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.95665901899337769" green="0.95999497175216675" blue="0.93707478046417236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Outerview" destination="1p5-ef-e2k" id="RkN-3d-V6R"/>
+                <outlet property="btnchangeaprofileinfo" destination="Tjh-DD-Fwt" id="Ic5-gP-IRP"/>
+                <outlet property="btnchangepassword" destination="UJO-qv-n0B" id="Xqq-as-jyd"/>
+                <outlet property="lblemail" destination="pTD-xf-B1a" id="mcq-hb-Wrv"/>
+                <outlet property="lblname" destination="hHU-qP-Gdh" id="Q1Z-R6-DyS"/>
+            </connections>
+            <point key="canvasLocation" x="12" y="170.01499250374815"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow-1" width="5.1999998092651367" height="8.8000001907348633"/>
+    </resources>
+</document>
