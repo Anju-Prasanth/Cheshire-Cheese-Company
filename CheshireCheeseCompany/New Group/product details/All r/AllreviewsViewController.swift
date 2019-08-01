@@ -23,7 +23,7 @@ class AllreviewsViewController: UIViewController,UITableViewDataSource,UITableVi
     var skuidreview=String()
     var hud:MBProgressHUD=MBProgressHUD()
     var nameproduct=String()
-    var isLabelAtMaxHeight = [Bool]()
+    var isLabelAtMaxHeight = [false]
     var lblheight=Bool()
     @IBOutlet weak var reviewcount: UILabel!
     @IBOutlet weak var productname: UILabel!
@@ -77,7 +77,7 @@ class AllreviewsViewController: UIViewController,UITableViewDataSource,UITableVi
       allreview.lbltitle.text=titlearray[indexPath.row]
         allreview.lbldetail.text=detailarray[indexPath.row]
         allreview.btnprdctreviewreadmore.tag=indexPath.row
-        allreview.btnprdctreviewreadmore.addTarget(self, action: #selector(btnprdctreviewreadmoreaction(sender:)), for: .touchUpInside)
+       // allreview.btnprdctreviewreadmore.addTarget(self, action: #selector(btnprdctreviewreadmoreaction(sender:)), for: .touchUpInside)
         let date = datearray[indexPath.row]
         let dateFormatter = DateFormatter()
         
@@ -120,29 +120,27 @@ class AllreviewsViewController: UIViewController,UITableViewDataSource,UITableVi
 //    allreview.btnprdctreviewreadmore.isHidden=true
 //    }else{
 //
-        if (allreview.lbldetail.text?.count)! > 200{
-            
-           allreview.btnprdctreviewreadmore.isHidden=false
-            if isLabelAtMaxHeight.count != 0 {
-            if isLabelAtMaxHeight[indexPath.row] == true {
-                allreview.lbldetail.numberOfLines = 0
-               allreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
-            }
-            else {
-               allreview.lbldetail.numberOfLines = 4
-                allreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
-                
-            }
-        }
-        }else{
-            allreview.btnprdctreviewreadmore.isHidden=true
-        }
-    
-       // }
-       
+//        if (allreview.lbldetail.text?.count)! > 200{
+//
+//            allreview.btnprdctreviewreadmore.isHidden=false
+//
+//
+//
+//            if isLabelAtMaxHeight[0] == true {
+//                allreview.lbldetail.numberOfLines = 0
+//                allreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
+//            }
+//            else {
+//                allreview.lbldetail.numberOfLines = 4
+//                allreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
+//
+//            }
+//        }else{
+//            allreview.btnprdctreviewreadmore.isHidden=true
+//        }
     
     return allreview
-    }
+}
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -173,18 +171,18 @@ class AllreviewsViewController: UIViewController,UITableViewDataSource,UITableVi
 //        self.allreview.lblreviewheight.isActive=false
 //            tableviewallreviews.reloadData()
 //        }
-        
-        if isLabelAtMaxHeight[sender.tag]==true{
-            sender.setTitle("....Read more", for: .normal)
-            isLabelAtMaxHeight.append(false)
-            
-        }
-        else {
-            sender.setTitle("....Read less", for: .normal)
-            isLabelAtMaxHeight.append(true)
-            
-        }
-        tableviewallreviews.reloadData()
+//        
+//        if isLabelAtMaxHeight{
+//            sender.setTitle("....Read more", for: .normal)
+//            isLabelAtMaxHeight[sender.tag]=false
+//            
+//        }
+//        else {
+//            sender.setTitle("....Read less", for: .normal)
+//            isLabelAtMaxHeight[sender.tag]=true
+//            
+//        }
+//        tableviewallreviews.reloadData()
     }
     
         

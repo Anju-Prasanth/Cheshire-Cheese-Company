@@ -329,8 +329,8 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                 if titlearray.count<=2{
                     return titlearray.count
                 }else{
-                return 2
-                }
+                    return 2
+                    }
             }
             }
             else{
@@ -736,15 +736,19 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                     
                   
                     
-                }else{
-                productreview=(tableView.dequeueReusableCell(withIdentifier: "ProductReviewsTableViewCell", for: indexPath) as? ProductReviewsTableViewCell)!
+                }
+                
+                else{
+                    productreview=(tableView.dequeueReusableCell(withIdentifier: "ProductReviewsTableViewCell", for: indexPath) as? ProductReviewsTableViewCell)!
                     print("datearray",datearray)
-                //productreview.Outerview.layer.cornerRadius=5
-                   
-                productreview.lbltitle.text=titlearray[indexPath.row]
+                    //productreview.Outerview.layer.cornerRadius=5
                     
-                productreview.lbldetail.text=detailarray[indexPath.row]
-                productreview.btnprdctreviewreadmore.tag=indexPath.row
+                   
+                        productreview.lbltitle.text=titlearray[indexPath.row]
+                        
+                    
+                    productreview.lbldetail.text=detailarray[indexPath.row]
+                    productreview.btnprdctreviewreadmore.tag=indexPath.row
                     if self.datearray.count != 0{
                         let firstdate = self.datearray[0]
                         let dateFormatter = DateFormatter()
@@ -753,77 +757,78 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                         let dateFromString : NSDate = dateFormatter.date(from: firstdate)! as NSDate
                         dateFormatter.dateFormat = "dd-MM-yyyy"
                         let datenew = dateFormatter.string(from: dateFromString as Date)
-                         if self.datearray.count > 1 {
-                        let seconddate=self.datearray[1]
-                        
-                        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-                        let dateFromString1 : NSDate = dateFormatter.date(from: seconddate)! as NSDate
-                        dateFormatter.dateFormat = "dd-MM-yyyy"
-                        let datenew1 = dateFormatter.string(from: dateFromString1 as Date)
+                        if self.datearray.count > 1 {
+                            let seconddate=self.datearray[1]
+                            
+                            dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+                            let dateFromString1 : NSDate = dateFormatter.date(from: seconddate)! as NSDate
+                            dateFormatter.dateFormat = "dd-MM-yyyy"
+                            let datenew1 = dateFormatter.string(from: dateFromString1 as Date)
                             self.truedatearray.append(datenew1)
                         }
                         
                         
                         
                         self.truedatearray.append(datenew)
-                       
+                        
                     }else{
                         
                     }
-                     productreview.lbldate.text=truedatearray[indexPath.row]
+                    productreview.lbldate.text=truedatearray[indexPath.row]
                     
-                productreview.lblname.text=nicknamearray[indexPath.row]
+                    productreview.lblname.text=nicknamearray[indexPath.row]
+                    
+                    
+                    if ratingcodearray[indexPath.row]=="Quality"{
+                        
+                        productreview.ratingquality.rating=ratingvaluearray[indexPath.row]
+                        
+                    }else if ratingcodearray[indexPath.row]=="Rating"{
+                        
+                        productreview.ratingrtng.rating=ratingvaluearray[indexPath.row]
+                        
+                    }else if ratingcodearray[indexPath.row]=="Price"{
+                        
+                        productreview.ratingprice.rating=ratingvaluearray[indexPath.row]
+                    }else if ratingcodearray[indexPath.row]=="Value"{
+                        productreview.ratingvalue.rating=ratingvaluearray[indexPath.row]
+                    }
+                    else{
+                        
+                        
+                    }
+                    
+                    productreview.btnprdctreviewreadmore.addTarget(self, action: #selector(btnprdctreviewreadmoreaction(sender:)), for: .touchUpInside)
+                                    if btnreadmoreflag==1{
+                                        //productreview.btnprdctreviewreadmore.isHidden=true
+                                    }else{
+                    
+                                        if (productreview.lbldetail.text?.count)! > 210{
+                    
+                                            productreview.btnprdctreviewreadmore.isHidden=false
+                    
+                    
+                    
+                                            if reviewLabelAtMaxHeight == true {
+                                                productreview.lbldetail.numberOfLines = 0
+                                                productreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
+                                            }
+                                            else {
+                                                productreview.lbldetail.numberOfLines = 5
+                                                productreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
+                    
+                                            }
+                                        }else{
+                                            productreview.btnprdctreviewreadmore.isHidden=true
+                                        }
+                                    }
+                    }
+                    return productreview
                 
                 
-                if ratingcodearray[indexPath.row]=="Quality"{
-                    
-                    productreview.ratingquality.rating=ratingvaluearray[indexPath.row]
-                    
-                }else if ratingcodearray[indexPath.row]=="Rating"{
-                
-            productreview.ratingrtng.rating=ratingvaluearray[indexPath.row]
-                    
-                }else if ratingcodearray[indexPath.row]=="Price"{
-                    
-                    productreview.ratingprice.rating=ratingvaluearray[indexPath.row]
-                }else if ratingcodearray[indexPath.row]=="Value"{
-                    productreview.ratingvalue.rating=ratingvaluearray[indexPath.row]
-                }
-                else{
-                    
-                    
-                }
-                
-                // productreview.btnprdctreviewreadmore.addTarget(self, action: #selector(btnprdctreviewreadmoreaction(sender:)), for: .touchUpInside)
-//                if btnreadmoreflag==1{
-//                    //productreview.btnprdctreviewreadmore.isHidden=true
-//                }else{
-//
-//                    if (productreview.lbldetail.text?.count)! > 160{
-//
-//                        productreview.btnprdctreviewreadmore.isHidden=false
-//
-//
-//
-//                        if reviewLabelAtMaxHeight == true {
-//                            productreview.lbldetail.numberOfLines = 0
-//                            productreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
-//                        }
-//                        else {
-//                            productreview.lbldetail.numberOfLines = 6
-//                            productreview.lbldetail.lineBreakMode = NSLineBreakMode.byWordWrapping
-//
-//                        }
-//                    }else{
-//                        productreview.btnprdctreviewreadmore.isHidden=true
-//                    }
-//                }
-               // }
-                return productreview
-                }
-                
-                
-            }else{
+        
+            }
+        else{
                 if titlearray.count==0 {
                     submitreview=(tableView.dequeueReusableCell(withIdentifier: "SubmitreviewTableViewCell", for: indexPath) as? SubmitreviewTableViewCell)!
                     if btnwriteareviewflag==1{
@@ -881,6 +886,13 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                     return submitreview
                 }
                     
+                }else if titlearray.count==1{
+                     seeallreviews=(tableView.dequeueReusableCell(withIdentifier: "SeeallreviewsTableViewCell", for: indexPath) as? SeeallreviewsTableViewCell)!
+                   // seeallreviews.isHidden=true
+                    seeallreviews.lblseeallreviews.text="No More Reviews"
+                    seeallreviews.btnseeallreviews.isHidden=true
+                    
+                    return seeallreviews
                 }
                     else{
                 
@@ -1149,6 +1161,7 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                     return 628
                 }else{
                      return UITableViewAutomaticDimension
+//                    return 400
                 }
                
             }
@@ -1172,9 +1185,9 @@ print("btnwriteareviewflag",btnwriteareviewflag)
     
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        
+
         if btnreviewflag==0{
-            
+
             if indexPath.section==0 {
                 return 575
             }else if indexPath.section==1{
@@ -1188,7 +1201,7 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                     return 0
                 }
             }
-            
+
         }else {
             if indexPath.section==0{
                 return 575
@@ -1196,12 +1209,12 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                 return 39
             }else if indexPath.section==2{
                 return 44
-                
+
             }else if indexPath.section==3{
                 if btnwriteareviewflag==1{
                     return 628
                 }else{
-                return  UITableViewAutomaticDimension
+                return  200
             }
             }
             else{
@@ -1215,13 +1228,13 @@ print("btnwriteareviewflag",btnwriteareviewflag)
                     return 92
                 }
             }
-            
+
         }
-        
-        
-        
+
+
+
     }
-        
+    
         
         
         

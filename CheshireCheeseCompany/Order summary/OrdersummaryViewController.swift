@@ -344,8 +344,9 @@ class OrdersummaryViewController: UIViewController,UITableViewDataSource,UITable
            // paymentRequest.currencyCode="GBP"
             paymentRequest.merchantIdentifier="merchant.com.websight"
             paymentRequest.shippingContact = contact
-            
-            
+           
+    
+        
             let shippingMethod = PKShippingMethod()
             shippingMethod.label="COD"
             //shippingMethod.amount=NSDecimalNumber(string: String(format:"%.2f",totalpay)
@@ -423,6 +424,7 @@ class OrdersummaryViewController: UIViewController,UITableViewDataSource,UITable
             print("success....")
         }
     }
+
     
     func paymentAuthorizationViewControllerDidFinish(_ controller: PKPaymentAuthorizationViewController) {
        

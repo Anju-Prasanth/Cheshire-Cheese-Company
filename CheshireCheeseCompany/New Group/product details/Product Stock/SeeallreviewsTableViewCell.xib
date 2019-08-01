@@ -75,7 +75,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="y21-0C-fxv" secondAttribute="trailing" constant="14.699999999999999" id="8KP-yb-95t"/>
+                            <constraint firstAttribute="trailing" secondItem="y21-0C-fxv" secondAttribute="trailing" constant="14.5" id="8KP-yb-95t"/>
                             <constraint firstAttribute="bottom" secondItem="y21-0C-fxv" secondAttribute="bottom" constant="30" id="9gy-si-t5d"/>
                             <constraint firstItem="lYp-8g-LIx" firstAttribute="leading" secondItem="8uJ-DY-M3O" secondAttribute="leading" constant="20" id="Dv0-10-TVe"/>
                             <constraint firstAttribute="bottom" secondItem="qnm-zk-AJ5" secondAttribute="bottom" constant="30" id="Qbk-vn-km4"/>
@@ -95,14 +95,19 @@
                     <constraint firstItem="8uJ-DY-M3O" firstAttribute="top" secondItem="NlC-3y-c90" secondAttribute="top" id="TLp-6r-qNV"/>
                     <constraint firstItem="8uJ-DY-M3O" firstAttribute="leading" secondItem="NlC-3y-c90" secondAttribute="leading" constant="10" id="hWV-Wz-PNP"/>
                     <constraint firstAttribute="bottom" secondItem="8uJ-DY-M3O" secondAttribute="bottom" constant="17.5" id="s8e-CF-Llu"/>
-                    <constraint firstAttribute="trailing" secondItem="8uJ-DY-M3O" secondAttribute="trailing" constant="12" id="uff-Qm-yML"/>
+                    <constraint firstAttribute="trailing" secondItem="8uJ-DY-M3O" secondAttribute="trailing" constant="10" id="uff-Qm-yML"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" red="0.94719117880000003" green="0.92402106520000005" blue="0.84905785320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="Outerview" destination="8uJ-DY-M3O" id="PcM-cY-ErB"/>
+                <outlet property="bottomlbl" destination="8uJ-DY-M3O" id="Ehh-Ef-Dtu"/>
+                <outlet property="btnseeallreviews" destination="uhN-uv-q4a" id="bw8-cb-NVL"/>
+                <outlet property="lblseeallreviews" destination="hhR-dV-hUa" id="kdq-z9-Km4"/>
+                <outlet property="leftlbl" destination="hhR-dV-hUa" id="ixO-hy-W4J"/>
+                <outlet property="rightlbl" destination="y21-0C-fxv" id="GqH-YV-Oc4"/>
             </connections>
-            <point key="canvasLocation" x="86" y="49"/>
+            <point key="canvasLocation" x="84.799999999999997" y="48.575712143928037"/>
         </tableViewCell>
     </objects>
     <resources>
